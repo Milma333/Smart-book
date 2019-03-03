@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/home"
+            android:checkable="true"
+            android:enabled="true"
+            android:icon="@drawable/homeicon"
+            android:title="@string/home"
+            android:visible="true" />
+        <item
+            android:id="@+id/lyrics_home"
+            android:icon="@drawable/lhome"
+            android:title="@string/lyrics_home" />
+        <item
+            android:id="@+id/add_lyrics"
+            android:icon="@drawable/addl"
+            android:title="@string/add_lyrics" />
+        <item
+            android:id="@+id/account_settings"
+            android:icon="@drawable/account"
+            android:title="@string/account_settings" />
+        <item
+            android:id="@+id/connection_settings"
+            android:icon="@drawable/connection"
+            android:title="@string/connection_settings" />
+    </group>
+
+    <item
+        android:id="@+id/communicate"
+        android:title="@string/communicate">
+        <menu>
+            <item
+                android:id="@+id/help"
+                android:icon="@drawable/help"
+                android:title="@string/help" />
+            <item
+                android:id="@+id/contact_us"
+                android:icon="@drawable/contact"
+                android:title="@string/contact_us" />
+            <item
+                android:id="@+id/feedback"
+                android:icon="@drawable/feedback"
+                android:title="@string/feedback" />
+            <item
+                android:id="@+id/share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="@string/share" />
+        </menu>
+    </item>
+
+</menu>

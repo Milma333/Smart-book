@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/savelist"
+        android:icon="@drawable/ic_menu_share"
+        android:orderInCategory="100"
+        android:title="Save"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/saveas"
+        android:icon="@drawable/saveas"
+        android:orderInCategory="100"
+        android:title="Save as"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/undo"
+        android:icon="@drawable/undo"
+        android:orderInCategory="100"
+        android:title="Undo"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/share"
+        android:icon="@drawable/undo"
+        android:orderInCategory="100"
+        android:title="@string/share"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/font"
+        android:icon="@drawable/font"
+        android:orderInCategory="100"
+        android:title="Font"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/fontsize"
+        android:icon="@drawable/fontsize"
+        android:orderInCategory="100"
+        android:title="Font"
+        app:showAsAction="ifRoom" />
+</menu>

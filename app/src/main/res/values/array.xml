@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="my_fonts">
+        <item>ballpark_weiner.ttf</item>
+        <item>android.ttf</item>
+        <item>black_jar.ttf</item>
+        <item>qaskinback_personaluse.ttf</item>
+    </string-array>
+</resources>

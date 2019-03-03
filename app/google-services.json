@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "695700731628",
+    "firebase_url": "https://smartbook-12cba.firebaseio.com",
+    "project_id": "smartbook-12cba",
+    "storage_bucket": "smartbook-12cba.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:695700731628:android:9fc6ff69f8ca17a2",
+        "android_client_info": {
+          "package_name": "com.example.milmaaishwarya.smartbook"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "695700731628-svejuv9iuc7pp9gu2s99pjp48hn0n9e3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.milmaaishwarya.smartbook",
+            "certificate_hash": "7a194f059465b0063bbfc735d40c43c60493788d"
+          }
+        },
+        {
+          "client_id": "695700731628-fp67bj0e25o49msm0f4unlvfc3fjktep.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD_Q0Rfb1TNx2hfmkuLueB3GkKH1VEEIHI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "695700731628-fp67bj0e25o49msm0f4unlvfc3fjktep.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
